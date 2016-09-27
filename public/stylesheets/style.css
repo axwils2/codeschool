@@ -1,0 +1,47 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.item {
+	border: 2px solid #C0C0C0;
+	margin: 2%;
+	display: inline;
+	padding-bottom: 10px;
+}
+
+.col-centered {
+	float: none;
+	margin: 0 auto;
+}
+
+#title {
+	background-image: url("/images/gems.jpeg");
+	color: #ff00ff;
+	text-shadow: 
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		1px 1px 0 #000,
+		-1px 1px 0 #000;
+}
+
+#btn {
+	float: right;
+}
+
+section {
+	text-align: left;
+}
+
+.ng-invalid.ng-dirty {
+	border-color: #fa787e;
+}
+
+.ng-valid.ng-dirty {
+	border-color: #78fa89;
+}
